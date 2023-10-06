@@ -6,27 +6,63 @@ Grupo da disciplina de Desenvolvimento WebMobile - Turma B do curso Ciência da 
 
 ## Requisitos do Sistema
 
-| Nº | Requisito | Descrição |
-|---|---|---|
-| 1 | Registro e Autenticação | Os usuários devem se registrar e criar uma conta. |
-| 2 | Registro e Autenticação | Os usuários devem poder fazer login com segurança em suas contas. |
-| 3 | Registro e Autenticação | Recuperação de senha deve estar disponível para usuários que esqueceram suas senhas. |
-| 4 | Criação de Diário | Os usuários podem criar múltiplos diários. |
-| 5 | Criação de Diário | Cada diário deve ter um nome e uma descrição opcionais. |
-| 6 | Criação de Diário | Os diários podem ser definidos como públicos, privados ou compartilhados com outros usuários. |
-| 7 | Criação de Diário | Os diários podem ser editados ou excluídos pelo proprietário. |
-| 8 | Registros Diários | Os usuários podem criar registros diários. |
-| 9 | Registros Diários | Cada registro deve incluir um título, data e conteúdo de texto. |
-| 10 | Registros Diários | Os usuários podem anexar imagens, vídeos ou outros tipos de mídia aos registros. |
-| 11 | Registros Diários | Os registros podem ser editados ou excluídos pelo autor. |
-| 12 | Registros Diários | Os registros podem ser classificados por data e pesquisados por palavras-chave. |
-| 13 | Privacidade e Compartilhamento | Os usuários podem definir as configurações de privacidade de cada registro, escolhendo entre público, privado ou compartilhado com contatos específicos. |
-| 14 | Privacidade e Compartilhamento | Os registros compartilhados podem ser visualizados por usuários autorizados. |
-| 15 | Privacidade e Compartilhamento | A plataforma deve garantir a segurança dos dados e a privacidade dos usuários. |
-| 16 | Notificações | Os usuários podem configurar lembretes para escrever em seus diários diariamente ou em intervalos personalizados. |
-| 17 | Notificações | Os lembretes podem ser enviados por e-mail ou notificações push. |
-| 18 | Acesso Multiplataforma | A plataforma deve ser acessível por meio de um site responsivo. |
-| 19 | Acesso Multiplataforma | Deve ser desenvolvida uma versão do aplicativo móvel para sistemas iOS e Android. |
+1. **Registro e Autenticação**
+   - Como um usuário, desejo poder me registrar e criar uma conta para acessar o sistema.
+
+2. **Registro e Autenticação**
+   - Como um usuário, desejo poder fazer login de forma segura em minha conta para acessar minhas informações pessoais.
+
+3. **Registro e Autenticação**
+   - Como um usuário, desejo ter a opção de recuperar minha senha caso a esqueça.
+
+4. **Criação de Diário**
+   - Como um usuário, desejo criar múltiplos diários para organizar minhas anotações.
+
+5. **Criação de Diário**
+   - Como um usuário, desejo poder dar um nome e uma descrição a cada um dos meus diários.
+
+6. **Criação de Diário**
+   - Como um usuário, desejo poder definir a privacidade dos meus diários, escolhendo entre público, privado ou compartilhado com outros usuários.
+
+7. **Criação de Diário**
+   - Como um usuário, desejo poder editar ou excluir meus diários conforme necessário.
+
+8. **Registros Diários**
+   - Como um usuário, desejo criar registros diários para documentar minhas atividades.
+
+9. **Registros Diários**
+   - Como um usuário, desejo que cada registro inclua um título, data e conteúdo de texto.
+
+10. **Registros Diários**
+    - Como um usuário, desejo a capacidade de anexar imagens, vídeos ou outros tipos de mídia aos meus registros.
+
+11. **Registros Diários**
+    - Como um usuário, desejo poder editar ou excluir os registros que criei.
+
+12. **Registros Diários**
+    - Como um usuário, desejo classificar meus registros por data e pesquisar por palavras-chave.
+
+13. **Privacidade e Compartilhamento**
+    - Como um usuário, desejo poder definir as configurações de privacidade de cada registro, escolhendo entre público, privado ou compartilhado com contatos específicos.
+
+14. **Privacidade e Compartilhamento**
+    - Como um usuário, desejo que os registros compartilhados sejam visíveis apenas para usuários autorizados.
+
+15. **Privacidade e Compartilhamento**
+    - Como um usuário, desejo que a plataforma garanta a segurança dos meus dados e minha privacidade.
+
+16. **Notificações**
+    - Como um usuário, desejo poder configurar lembretes para escrever em meus diários diariamente ou em intervalos personalizados.
+
+17. **Notificações**
+    - Como um usuário, desejo que os lembretes possam ser enviados por e-mail ou notificações push.
+
+18. **Acesso Multiplataforma**
+    - Como um usuário, desejo acessar a plataforma por meio de um site responsivo.
+
+19. **Acesso Multiplataforma**
+    - Como um usuário, desejo uma versão do aplicativo móvel para sistema Android para facilitar o acesso em dispositivos móveis.
+
 
 ## Entidades e Atributos
 
