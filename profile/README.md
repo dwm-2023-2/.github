@@ -145,6 +145,45 @@ O Note2Note é um aplicativo da categoria de organização pessoal e memórias *
 
 ## Documentação
 
+### Usuário
+
+- #### Criar conta (Sign Up)
+      Permite a criação de um usuário.  
+      Método: POST  
+      Endpoint: /users/signup
+
+
+- #### Entrar na conta (Log in)
+      Permite que o usuário acesse sua conta.  
+      Método: POST  
+      Endpoint: /users/login
+
+
+- #### Encontrar usuário
+      Permite encontrar um usuário.  
+      Método: GET  
+      Endpoint: /users/:id
+
+
+- #### Atualizar nome de usuário
+      Permite atualizar o nome do usuário.   
+      Método: PUT  
+      Endpoint: /users/:id
+
+
+- #### Apagar usuário
+      Permite apagar o usuário.  
+      Método: DELETE  
+      Endpoint: /users/:id
+
+
+### Diário
+
+
+### Registro Diário
+
+
+### Compartilhamento
 
 ## Prototipação - Figma
 
