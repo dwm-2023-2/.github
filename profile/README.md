@@ -4,6 +4,13 @@ Grupo da disciplina de Desenvolvimento WebMobile - Turma B do curso Ciência da 
 
 **Projeto:** Diário Online
 
+## Conteúdos
+- [Visão do Produto](#visao-do-produto)
+- [Requisitos do Sistema (User Stories)](#requisitos-do-sistema-user-stories)
+- [Entidades e Atributos](#entidades-e-atributos)
+- [Documentação](#documentacao)
+- [Prototipação - Figma](#prototipacao-figma)
+
 ## Visão do Produto
 
 **Descrição:** O Note2Note é um aplicativo de diários online que permite aos usuários criar, gerenciar e compartilhar diários digitais de forma eficaz e segura, facilitando o registro de suas atividades e memórias pessoais.
@@ -30,7 +37,7 @@ O Note2Note é um aplicativo da categoria de organização pessoal e memórias *
 - Disponibilidade multiplataforma.
 - Segurança e privacidade aprimoradas.
 
-## Requisitos do Sistema
+## Requisitos do Sistema (User Stories)
 
 1. **Registro e Autenticação**
    - Como um usuário, desejo poder me registrar e criar uma conta para acessar o sistema.
@@ -134,3 +141,28 @@ O Note2Note é um aplicativo da categoria de organização pessoal e memórias *
             Diário Compartilhado (Chave Estrangeira: ID do Diário)
         Relacionamento:
             Um compartilhamento pode ser de um diário com um usuário específico ou com um grupo de usuários.
+
+
+## Documentação
+
+
+## Prototipação - Figma
+
+Prototipos desenvolvidos na plataforma Figma, para layouts desktop e mobile:
+
+### Tela de Login - Entrar:
+
+![Entrar](./Entrar.png)
+
+### Tela de SignUp - Criar Conta:
+
+![Cadastro](./Cadastro.png)
+
+### Tela de Login - Entrar (Mobile):
+
+![EntrarMobile](./LoginMobile.png)
+
+### Tela de SignUp - Criar Conta (Mobile):
+
+![CadastroMobile](./CadastroMobile.png)
+
