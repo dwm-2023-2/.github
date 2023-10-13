@@ -4,6 +4,32 @@ Grupo da disciplina de Desenvolvimento WebMobile - Turma B do curso Ciência da 
 
 **Projeto:** Diário Online
 
+## Visão do Produto
+
+**Descrição:** O Note2Note é um aplicativo de diários online que permite aos usuários criar, gerenciar e compartilhar diários digitais de forma eficaz e segura, facilitando o registro de suas atividades e memórias pessoais.
+
+**Para:** Usuários individuais e entusiastas da organização pessoal e memórias
+
+**QUE:** Necessitam de uma solução digital para criar, gerenciar e compartilhar seus diários e registros diários de forma eficaz, tornando a experiência de documentar suas atividades e memórias pessoais mais significativa e segura.
+
+O Note2Note é um aplicativo da categoria de organização pessoal e memórias **QUE:**
+
+- Oferece a conveniência de documentar experiências diárias em diários personalizados.
+- Permite a adição de imagens, vídeos e outros tipos de mídia aos registros diários.
+- Permite a definição de níveis de privacidade para os diários.
+- Oferece notificações personalizáveis para lembrar os usuários de escrever em seus diários.
+- Está disponível como um site responsivo e um aplicativo Android.
+- Garante a segurança dos dados e a privacidade dos usuários, proporcionando tranquilidade ao compartilhar memórias.
+
+**AO CONTRÁRIO** de alternativas, como diários físicos ou aplicativos genéricos de notas, o Note2Note se diferencia pela:
+
+- Foco dedicado em diários pessoais e memórias.
+- Recursos avançados de mídia para enriquecer os registros.
+- Opções de privacidade flexíveis.
+- Notificações personalizadas para incentivar o registro constante.
+- Disponibilidade multiplataforma.
+- Segurança e privacidade aprimoradas.
+
 ## Requisitos do Sistema
 
 1. **Registro e Autenticação**
