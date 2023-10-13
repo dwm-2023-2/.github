@@ -8,8 +8,8 @@ Grupo da disciplina de Desenvolvimento WebMobile - Turma B do curso Ciência da 
 - [Visão do Produto](#visao-do-produto)
 - [Requisitos do Sistema (User Stories)](#requisitos-do-sistema-user-stories)
 - [Entidades e Atributos](#entidades-e-atributos)
-- [Documentação](#documentacao)
-- [Prototipação - Figma](#prototipacao-figma)
+- [Documentação](#documentação)
+- [Prototipação - Figma](#prototipação---figma)
 
 ## Visão do Produto
 
