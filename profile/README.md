@@ -152,17 +152,38 @@ O Note2Note é um aplicativo da categoria de organização pessoal e memórias *
       Método: POST  
       Endpoint: /users/signup
 
+        Responses:
+         - 409: Details are not correct
+
+      JSON Example
+        {
+          "userName": "usuarioteste",
+          "email": "email@teste.com",
+          "senha": "senhateste@123"
+         }
+      
 
 - #### Entrar na conta (Log in)
       Permite que o usuário acesse sua conta.  
       Método: POST  
       Endpoint: /users/login
 
+        **Responses:**
+         - 401: Authentication failed
 
+- #### Lista de Usuários (apenas para desenvolvimento)
+      Permite visualizar todos os usuários.
+      Método: GET  
+      Endpoint: /users/users
+  
 - #### Encontrar usuário
       Permite encontrar um usuário.  
       Método: GET  
       Endpoint: /users/:id
+
+      **Responses:**
+         - 404: message: `Cannot find User with id=${id}.`
+         - 500: message: "Error retrieving User with id=" + id
 
 
 - #### Atualizar nome de usuário
@@ -170,12 +191,18 @@ O Note2Note é um aplicativo da categoria de organização pessoal e memórias *
       Método: PUT  
       Endpoint: /users/:id
 
+      **Responses:**
+         - 404: message: `Cannot update User with id=${id}. Maybe User was not found or req.body is empty!`
+         - 500: message: "Error updating User with id=" + id
 
 - #### Apagar usuário
       Permite apagar o usuário.  
       Método: DELETE  
       Endpoint: /users/:id
 
+      **Responses:**
+         - 404: message: `Cannot delete User with id=${id}. Maybe User was not found!`
+         - 500: message: "Could not delete User with id=" + id
 
 ### Diário
 
