@@ -189,12 +189,24 @@ O Note2Note é um aplicativo da categoria de organização pessoal e memórias *
 - #### Atualizar nome de usuário
       Permite atualizar o nome do usuário.   
       Método: PUT  
-      Endpoint: /users/:id
+      Endpoint: /users/:id/updateName
 
       **Responses:**
          - 404: message: `Cannot update User with id=${id}. Maybe User was not found or req.body is empty!`
          - 500: message: "Error updating User with id=" + id
 
+- #### Atualizar email de usuário 
+      Permite atualizar o email do usuário.
+      Método: PUT  
+      Endpoint: /users/:id/updateUserEmail
+
+        **Responses:**
+        - 200: message: "Email updated successfully"  
+        - 404: message: "User not found"
+        - 409: message: "Email already exists in the database."
+         - 500: message: "Internal server error"
+
+  
 - #### Apagar usuário
       Permite apagar o usuário.  
       Método: DELETE  
