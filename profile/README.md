@@ -171,6 +171,14 @@ O Note2Note é um aplicativo da categoria de organização pessoal e memórias *
         **Responses:**
          - 401: Authentication failed
 
+  - #### Sair da conta (Log out)
+      Permite que o usuário acesse sua conta.  
+      Método: GET  
+      Endpoint: /users/logout
+
+        **Responses:**
+         - 200: User logged out successfully
+
 - #### Lista de Usuários (apenas para desenvolvimento)
       Permite visualizar todos os usuários.
       Método: GET  
@@ -200,12 +208,11 @@ O Note2Note é um aplicativo da categoria de organização pessoal e memórias *
       Método: PUT  
       Endpoint: /users/:id/updateUserEmail
 
-        **Responses:**
-        - 200: message: "Email updated successfully"  
-        - 404: message: "User not found"
-        - 409: message: "Email already exists in the database."
+      **Responses:**
+         - 200: message: "Email updated successfully"
+         - 404: message: "User not found"
+         - 409: message: "Email already exists in the database."
          - 500: message: "Internal server error"
-
   
 - #### Apagar usuário
       Permite apagar o usuário.  
