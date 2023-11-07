@@ -171,7 +171,7 @@ O Note2Note é um aplicativo da categoria de organização pessoal e memórias *
         **Responses:**
          - 401: Authentication failed
 
-  - #### Sair da conta (Log out)
+- #### Sair da conta (Log out)
       Permite que o usuário acesse sua conta.  
       Método: GET  
       Endpoint: /users/logout
