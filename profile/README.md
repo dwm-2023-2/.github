@@ -228,6 +228,49 @@ O Note2Note é um aplicativo da categoria de organização pessoal e memórias *
 
 ### Registro Diário
 
+- #### Criar Registro Diário
+      Cria um novo registro diário
+      Método: POST
+      Endpoint: /registroDiario
+      **Resoinses:**
+      - 201: message: 'Record created successfully'
+      - 409: message: "Details are not correct"
+  
+- #### Lista de todos os registros diário (apenas para o desenvolvimento)
+      Lista todos os Registros 
+      Método: GET
+      Endpoint: /registroDiario
+      **Resoinses:**
+      - 200: Returns the list of daily records.
+      - 500: message:  "An error occurred while retrieving registered journals."
+  
+- #### Encontrar Registro Diário privado
+      Retorna um registro diário com o ID especificado.
+      Método: GET
+      Endpoint: /registroDiario/:id
+      **Resoinses:**
+      - 200: message: Returns the corresponding daily record.
+      - 401: message: User is not logged in or has not authorized cookies.
+      - 403: message: The record does not belong to this user.
+      - 404: message: Associated record or journal not found.
+
+- #### Atualizar Registro Diário 
+      Atualiza um registro diário com o ID especificado.
+      Método: PUT
+      Endpoint: /registroDiario/:id
+      **Resoinses:**
+      - 200: message: "Registry was updated successfully."
+      - 404: message: `Unable to update Registry with id=${id}. Maybe the Registry was not found or req.body is empty!`
+      - 500: message: "Error updating Registry with id=" + id.
+  
+- #### Deleta Registro Diário 
+      Deleta um registro diário com o ID especificado.
+      Método: DELETE
+      Endpoint: /registroDiario/:id
+      **Resoinses:**
+      - 200: message: "Registro wsa deleted successfully!"
+      - 404: message: `It is not possible to delete the Journal Record with id=${id}. Perhaps the Registry was not found!`
+      - 500: message: "Unable to delete record with id=" + id
 
 ### Compartilhamento
 
