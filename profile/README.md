@@ -294,3 +294,6 @@ Prototipos desenvolvidos na plataforma Figma, para layouts desktop e mobile:
 
 ![CadastroMobile](./CadastroMobile.png)
 
+## Infra Discovery
+   Atualmente nossa infraestrutura se baseia no cloud provider AWS, usamos IAC(infra as code) utilizando o Terraform.  
+   Como um app que segue premissas Cloud-native.
