@@ -297,3 +297,7 @@ Prototipos desenvolvidos na plataforma Figma, para layouts desktop e mobile:
 ## Infra Discovery
    Atualmente nossa infraestrutura se baseia no cloud provider AWS, usamos IAC(infra as code) utilizando o Terraform.  
    Como um app que segue premissas Cloud-native.
+   ### GITOPS STRATEGY
+   ![GITOPS](./gitopsDWM.png)
+   ### AWS
+   ![AWS](./aws.png)
