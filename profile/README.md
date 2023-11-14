@@ -84,18 +84,11 @@ O Note2Note é um aplicativo da categoria de organização pessoal e memórias *
 15. **Privacidade e Compartilhamento**
     - Como um usuário, desejo que a plataforma garanta a segurança dos meus dados e minha privacidade.
 
-16. **Notificações**
+16. **Notificações via Navegador**
     - Como um usuário, desejo poder configurar lembretes para escrever em meus diários diariamente ou em intervalos personalizados.
 
-17. **Notificações**
-    - Como um usuário, desejo que os lembretes possam ser enviados por e-mail ou notificações push.
-
-18. **Acesso Multiplataforma**
+17. **Acesso Multiplataforma**
     - Como um usuário, desejo acessar a plataforma por meio de um site responsivo.
-
-19. **Acesso Multiplataforma**
-    - Como um usuário, desejo uma versão do aplicativo móvel para sistema Android para facilitar o acesso em dispositivos móveis.
-
 
 ## Entidades e Atributos
 
