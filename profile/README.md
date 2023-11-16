@@ -218,6 +218,49 @@ O Note2Note é um aplicativo da categoria de organização pessoal e memórias *
 
 ### Diário
 
+- #### Criar Diário
+      Cria um novo Diário
+      Método: POST
+      Endpoint: /diario
+      **Resoinses:**
+      - 201: message: 'Diary created successfully'
+      - 409: message: "Details are not correct"
+  
+- #### Lista de todos os diários (apenas para o desenvolvimento)
+      Lista todos os Diários 
+      Método: GET
+      Endpoint: /diario
+      **Resoinses:**
+      - 200: Returns the list of journals.
+      - 500: message:  "An error occurred while retrieving the journals."
+  
+- #### Encontrar Diário privado
+      Retorna um diário com o ID especificado.
+      Método: GET
+      Endpoint: /diario/:id
+      **Resoinses:**
+      - 200: message: Returns the corresponding journal.
+      - 401: message: User not logged in or has not authorized cookies, please log in and accept cookies.
+      - 403: message: This diary does not belong to this user.
+      - 404: message: Cannot find Diario with id=${id}.
+
+- #### Atualizar Registro Diário 
+      Atualiza um diário com o ID especificado.
+      Método: PUT
+      Endpoint: /diario/:id
+      **Resoinses:**
+      - 200: message: "Diario was updated successfully."
+      - 404: message: `Cannot update Diario with id=${id}. Maybe Diario was not found or req.body is empty!`
+      - 500: message: "Error updating Diario with id=" + id.
+  
+- #### Deleta Registro Diário 
+      Deleta um diário com o ID especificado.
+      Método: DELETE
+      Endpoint: /diario/:id
+      **Resoinses:**
+      - 200: message: "Diario was deleted successfully!"
+      - 404: message: `Cannot delete Diario with id=${id}. Maybe Diario was not found!`
+      - 500: message: "Could not delete Diario with id=" + id
 
 ### Registro Diário
 
