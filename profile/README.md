@@ -310,6 +310,49 @@ O Note2Note é um aplicativo da categoria de organização pessoal e memórias *
 
 ### Compartilhamento
 
+- #### Compartilhar Diário
+      Criar Compartilhamento de Diário
+      Cria um novo compartilhamento de diário.
+      Método: POST
+      Endpoint: /compartilharDiario
+      Respostas:
+      201: Retorna o compartilhamento criado com sucesso.
+      409: Indica que os detalhes não estão corretos.
+
+- #### Lista de todos os compartilhamentos de diário (apenas para desenvolvimento)
+      Lista todos os compartilhamentos de diário.
+      Método: GET
+      Endpoint: /compartilharDiario
+      Respostas:
+      200: Retorna a lista de todos os registros de compartilhamento.
+      500: Indica que ocorreu um erro ao recuperar os registros de diário compartilhados.
+
+- #### Encontrar Compartilhamento de Diário
+      Retorna um compartilhamento de diário com o ID especificado.
+      Método: GET
+      Endpoint: /compartilharDiario/:id
+      Respostas:
+      200: Retorna o registro de compartilhamento de diário correspondente.
+      404: Indica que o registro de compartilhamento de diário com o ID especificado não foi encontrado.
+      500: Indica um erro ao recuperar o registro de compartilhamento de diário.
+
+- #### Atualizar Compartilhamento de Diário
+      Atualiza um compartilhamento de diário com o ID especificado.
+      Método: PUT
+      Endpoint: /compartilharDiario/:id
+      Respostas:
+      200: Indica que o registro foi atualizado com sucesso.
+      404: Indica que não foi possível atualizar o registro com o ID especificado, talvez porque não tenha sido encontrado ou o corpo da requisição está vazio.
+      500: Indica um erro ao atualizar o registro de compartilhamento de diário.
+- #### Deletar Compartilhamento de Diário
+      Deleta um compartilhamento de diário com o ID especificado.     
+      Método: DELETE
+      Endpoint: /compartilharDiario/:id
+      Respostas:
+      200: Indica que o registro foi deletado com sucesso.
+      404: Indica que não foi possível deletar o registro de compartilhamento de diário com o ID especificado, talvez porque não tenha sido encontrado.
+      500: Indica um erro ao deletar o registro de compartilhamento de diário.
+  
 ## Prototipação - Figma
 
 Prototipos desenvolvidos na plataforma Figma, para layouts desktop e mobile:
