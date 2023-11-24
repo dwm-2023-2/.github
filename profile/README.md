@@ -380,3 +380,46 @@ Prototipos desenvolvidos na plataforma Figma, para layouts desktop e mobile:
    ![GITOPS](./gitopsDWM.png)
    ### AWS
    ![AWS](./aws.png)
+
+
+# Conectar ao banco de dados local
+1 - Para se conectar ao banco de dados local 
+utilize algum SGDB de sua preferencia (Sistema de gerenciamento de banco de dados)
+podendo ser DBeave,pgAdmin, entre outros.
+
+2 - ## Credenciais 
+```bash
+  HOST: localhost
+  Porta: 5432
+  Baco de dados:notedb
+  Usuario: postgres
+  Senha:Kaju
+```
+
+3 - Abra o docker desktop, verifice se o container postgress esta rodando
+após isso tente conectar ao banco de dados. O banco de dados estará vazio.
+
+![dwmb](https://github.com/CaioSantdev/YoutubeDownload/assets/73500497/0af5a680-e66e-4d86-8f24-14af9b64c80c)
+
+
+## *Possiveis erros:*
+
+Caso você tenha o postgres instalado na sua maniquina ele estará tambem
+usando a porta 5232, resultando em conflito caso tente se conectar.
+
+4 - abre seu cmd como administrador e rode o comando: 
+```bash
+  netstat -ano | findstr :5432
+```
+![dwmbcmd](https://github.com/CaioSantdev/YoutubeDownload/assets/73500497/1e5b419f-f6f1-40ba-aed2-4291e273e38f)
+
+5 - "mate" o processo com os dois endereços da ulima coluna
+
+6 - execute os seguintes comando: 
+```bash
+  taskkill /PID **** /F 
+```
+```bash
+  taskkill /PID ***** /F
+```
+Tente se conectar novamente ao banco de dados.
